@@ -1,13 +1,165 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.hfs+
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ==========================================
+# macOS Application Data
+# ==========================================
+Library/
+Applications/
+Movies/
+Music/
+Pictures/
+Public/
+Desktop/
+Documents/
+Downloads/
+
+# ==========================================
+# Shell & Terminal Configurations
+# ==========================================
+.bash_history
+.bash_logout
+.bash_profile_backup
+.bashrc
+.zsh_history
+.zshrc
+.zshrc.*
+.zprofile_backup
+.zcompdump*
+.zsh_sessions/
+.fzf.bash
+.fzf.zsh
+.p10k.zsh
+.oh-my-zsh/
+
+# ==========================================
+# IDE & Editor Configurations
+# ==========================================
+.vscode/
+.vscode-shared/
+.cursor/
+.claude/
+.claude.json
+.cline/
+.codex/
+.codeium/
+.continue/
+.copilot/
+.tabnine/
+.jetbrains/
+.junie/
+.idea/
+*.swp
+*.swo
+*~
+.viminfo
+
+# ==========================================
+# Development Tools & SDKs
+# ==========================================
+.android/
+.dart/
+.dart-tool/
+.dartServer/
+.pub-cache/
+.flutter
+.flutter-devtools/
+.gradle/
+.sdkman/
+.swiftpm/
+.cocoapods/
+.gem/
+.gemrc
+.nvm/
+.npm/
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# Swap the comments on the following lines if you wish to use zero-installs
-# In that case, don't forget to run `yarn config set enableGlobalCache false`!
-# Documentation here: https://yarnpkg.com/features/caching#zero-installs
-
-#!.yarn/cache
 .pnp.*
+node_modules/
+.pip/
+.cache/
+.local/
+.config/
+.docker/
+.cups/
+.hwids
+
+# ==========================================
+# Project Directories
+# ==========================================
+fipe-api/
+fipe-promise/
+rio-site/
+Ticket-Booking-Site/
+ticketapp-client/
+ticketswap_client/
+ticketswap-api/
+ticketswap-frontend/
+ntws/
+kanban/
+litellm/
+PyCharmMiscProject/
+development/
+pasta\ sem\ título/
+Creative\ Cloud\ Files*/
+
+# ==========================================
+# Build Artifacts & Dependencies
+# ==========================================
+package-lock.json
+yarn.lock
+openjdk-*.tar.gz
+jdk-*.jdk/
+mysql/
+mysql.save
+stop
+inc/
+etc/
+
+# ==========================================
+# Sensitive & History Files
+# ==========================================
+.mysql_history
+.emulator_console_auth_token
+.hwid
+.Trash/
+
+# ==========================================
+# Misc
+# ==========================================
+&&
+~
+touch
+Postman/
+.x-formation/
+.hawtjni/
+.obsidian-cli.sock
+
+# ==========================================
+# Additional Application Data
+# ==========================================
+.AltairRapidMiner/
+.CFUserTextEncoding
+.adobe/
+.cagent/
+.zshrc_backup
